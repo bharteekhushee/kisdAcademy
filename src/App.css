@@ -1,0 +1,134 @@
+#Teachers::before, #Banner::before {
+  content: '';
+  background: url(./assets/img/section_triangle_top.png) repeat-x;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  z-index: 99;
+}
+#Teachers::after, #Banner::after {
+  content: '';
+  background: url(./assets/img/section_triangle_bottom.png) repeat-x;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  z-index: 99;
+}
+/* Topheader style start */
+#Topheader {
+  background-color: #92278F;
+  padding: 10px 0px;
+}
+
+#Topheader span {
+  font-style: italic;
+}
+
+#Topheader .socialIcon a {
+  color: white;
+}
+/* Topheader style end */
+/* Header style start */
+header {
+  padding: 15px 80px;
+}
+
+header .nav-link {
+  padding: 0px 20px !important;
+  font-size: 18px;
+}
+
+/* Header style end */
+/* Banner style start */
+#Banner{
+  padding: 100px 0px;
+  text-align: center;
+  background: linear-gradient(rgba(7, 143, 203, .8),rgba(7, 143, 203, .8)),url('./assets/img/about-bg.jpg') no-repeat scroll;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+#Banner .link{
+  font-style: italic;
+  font-size: 20px;
+}
+/* Banner style end */
+/* Facility style start */
+#Facility .facility_icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 40px;
+  line-height: 100px;
+  display: inline-block;
+  transition: all 1s;
+}
+#Facility .col-lg-3:hover .facility_icon{
+  transform: rotate(360deg);
+}
+/* Facility style end */
+/* Teachers,TeachersPage style start */
+#Teachers{
+  background: linear-gradient(rgba(71, 171, 35, .8),rgba(71, 171, 35, .8)),url(./assets/img/teacher-bg.jpg);
+  background-size: cover;
+  padding: 70px 0px;
+  position: relative;
+  color: white;
+}
+#TeachersPage{
+  padding: 100px 0px;
+  color: white;
+}
+#Teachers .teacher_social_icon span,#TeachersPage .teacher_social_icon span{
+  margin-right: 6px;
+}
+/* Teachers,TeachersPage style end */
+
+
+
+/* Responsive section */
+/* max-width:1200px */
+@media (max-width:1200px) {
+  header {
+    padding: 12px 60px;
+  }
+
+  header .nav-link {
+    padding: 0px 10px !important;
+    font-size: 17px;
+  }
+}
+
+/* max-width:1200px */
+/* max-width:992px */
+@media (max-width:992px) {}
+
+/* max-width:992px */
+/* max-width:768px */
+@media (max-width:768px) {
+  header {
+    padding: 10px 50px;
+  }
+
+  header .nav-link {
+    padding: 0px auto !important;
+    font-size: 16px;
+  }
+
+
+}
+
+/* max-width:768px */
+/* max-width:576px */
+@media (max-width:576px) {}
+
+/* max-width:576px */
+/* max-width:450px */
+@media (max-width:450px) {}
+
+/* max-width:450px */
+/* Responsive section */
