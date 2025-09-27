@@ -9,7 +9,7 @@ function Header() {
             <Navbar expand="lg" className="bg-white">
                 <Container fluid>
                     <Navbar.Brand as={Link} to="/">
-                        <img src={"./src/assets/img/logo.png"} alt="logo" className="img-fluid" />
+                        <img src={"img/logo.png"} alt="logo" className="img-fluid" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

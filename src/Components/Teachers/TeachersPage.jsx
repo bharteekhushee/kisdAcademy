@@ -9,49 +9,49 @@ import Banner from '../banner'
 
 const teacher_Details = [
     {
-        img: "./src/assets/img/teacher_01.jpg",
+        img: "img/teacher_01.jpg",
         name: "Broklyn Doel",
         role: "Sains Teacher",
         bgColor: "bg-yellow"
     },
     {
-        img: "./src/assets/img/teacher_02.jpg",
+        img: "img/teacher_02.jpg",
         name: "Alex Jhonson",
         role: "Art Teacher",
         bgColor: "bg-red"
     },
     {
-        img: "./src/assets/img/teacher_03.jpg",
+        img: "img/teacher_03.jpg",
         name: "Robot Jhonson",
         role: "Math Teacher",
         bgColor: "bg-orange"
     },
     {
-        img: "./src/assets/img/teacher_04.jpg",
+        img: "img/teacher_04.jpg",
         name: "Janaton Doe",
         role: "English Teacher",
         bgColor: "bg-purple"
     },
     {
-        img: "./src/assets/img/teacher_05.jpg",
+        img: "img/teacher_05.jpg",
         name: "Broklyn Doel",
         role: "Sains Teacher",
         bgColor: "bg-lightblue"
     },
     {
-        img: "./src/assets/img/teacher_06.jpg",
+        img: "img/teacher_06.jpg",
         name: "Alex Jhonson",
         role: "Art Teacher",
         bgColor: "bg-lightgreen"
     },
     {
-        img: "./src/assets/img/teacher_07.jpg",
+        img: "img/teacher_07.jpg",
         name: "Robot Jhonson",
         role: "Math Teacher",
         bgColor: "bg-pink"
     },
     {
-        img: "./src/assets/img/teacher_05.jpg",
+        img: "img/teacher_05.jpg",
         name: "Janaton Doe",
         role: "English Teacher",
         bgColor: "bg-brown"

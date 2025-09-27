@@ -8,25 +8,25 @@ import { Link } from 'react-router-dom'
 
 const teacher_Details = [
     {
-        img: "./src/assets/img/teacher_01.jpg",
+        img: "img/teacher_01.jpg",
         name: "Broklyn Doel",
         role: "Sains Teacher",
         bgColor: "bg-purple"
     },
     {
-        img: "./src/assets/img/teacher_02.jpg",
+        img: "img/teacher_02.jpg",
         name: "Alex Jhonson",
         role: "Art Teacher",
         bgColor: "bg-red"
     },
     {
-        img: "./src/assets/img/teacher_03.jpg",
+        img: "img/teacher_03.jpg",
         name: "Robot Jhonson",
         role: "Math Teacher",
         bgColor: "bg-orange"
     },
     {
-        img: "./src/assets/img/teacher_04.jpg",
+        img: "img/teacher_04.jpg",
         name: "Janaton Doe",
         role: "English Teacher",
         bgColor: "bg-lightblue"
@@ -47,33 +47,36 @@ function Teachers() {
                         </Col>
                     </Row>
                     <Row>
-                       {
-                        teacher_Details.map((item,index)=>{
-                            return(
-                                 <Col lg={6} className='py-3 px-4'>
-                            <div>
-                                <Row>
-                                    <Col sm={4} className='p-0'>
-                                        <img src={item.img} alt="#" className='img-fluid w-100 h-100' />
-                                    </Col>
-                                    <Col sm={8} className={`p-3 ${item.bgColor}`}>
-                                        <h4> {item.name}<h6 className='d-inline'>{item.role}</h6></h4>
-                                        <div className="teacher_social_icon">
-                                            <span><FontAwesomeIcon icon={faFacebook} /></span>
-                                            <span><FontAwesomeIcon icon={faVimeoV} /></span>
-                                            <span> <FontAwesomeIcon icon={faTwitter} /></span>
-                                            <span><FontAwesomeIcon icon={faPinterest} /></span>
-                                            <span><FontAwesomeIcon icon={faRss} /></span>
+                        {
+                            teacher_Details.map((item, index) => {
+                                return (
+                                    <Col lg={6} className='py-3 px-4' key={index}>
+                                        <div>
+                                            <Row>
+                                                <Col sm={4} className='p-0'>
+                                                    <img src={item.img} alt="#" className='img-fluid w-100 h-100' />
+                                                </Col>
+                                                <Col sm={8} className={`p-3 ${item.bgColor}`}>
+                                                    <h4>
+                                                        {item.name} <span className="fs-6 d-inline ms-2">{item.role}</span>
+                                                    </h4>
+
+                                                    <div className="teacher_social_icon">
+                                                        <span><FontAwesomeIcon icon={faFacebook} /></span>
+                                                        <span><FontAwesomeIcon icon={faVimeoV} /></span>
+                                                        <span> <FontAwesomeIcon icon={faTwitter} /></span>
+                                                        <span><FontAwesomeIcon icon={faPinterest} /></span>
+                                                        <span><FontAwesomeIcon icon={faRss} /></span>
+                                                    </div>
+                                                    <p className='my-3'>Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.</p>
+                                                    <Link to="teachers" className="fw-semibold text-white">View Portfolio</Link>
+                                                </Col>
+                                            </Row>
                                         </div>
-                                        <p className='my-3'>Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.</p>
-                                        <Link to="teachers" className="fw-semibold text-white">View Portfolio</Link>
                                     </Col>
-                                </Row>
-                            </div>
-                        </Col>
-                            )
-                        })
-                       }
+                                )
+                            })
+                        }
                     </Row>
                 </Container>
             </section>
