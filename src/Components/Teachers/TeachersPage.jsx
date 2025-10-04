@@ -68,14 +68,16 @@ function TeachersPage() {
                         {
                             teacher_Details.map((item, index) => {
                                 return (
-                                    <Col lg={6} className='py-3 px-4'>
+                                    <Col lg={6} className='py-3 px-4' key={index}>
                                         <div>
                                             <Row>
                                                 <Col sm={4} className='p-0'>
                                                     <img src={item.img} alt="#" className='img-fluid w-100 h-100' />
                                                 </Col>
                                                 <Col sm={8} className={`p-3 ${item.bgColor}`}>
-                                                    <h4> {item.name}<h6 className='d-inline'>{item.role}</h6></h4>
+                                                    <h4>
+                                                        {item.name} <span className="fs-6 d-inline ms-2">{item.role}</span>
+                                                    </h4>
                                                     <div className="teacher_social_icon">
                                                         <span><FontAwesomeIcon icon={faFacebook} /></span>
                                                         <span><FontAwesomeIcon icon={faVimeoV} /></span>

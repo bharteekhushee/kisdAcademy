@@ -1,6 +1,5 @@
 #Teachers::before, #Banner::before {
   content: '';
-  /* background: url(./assets/img/section_triangle_top.png) repeat-x; */
   background: url(img/section_triangle_top.png) repeat-x;
   position: absolute;
   top: 0px;
@@ -48,7 +47,7 @@ header .nav-link {
 #Banner{
   padding: 100px 0px;
   text-align: center;
-  background: linear-gradient(rgba(7, 143, 203, .8),rgba(7, 143, 203, .8)),url('./assets/img/about-bg.jpg') no-repeat scroll;
+  background: linear-gradient(rgba(7, 143, 203, .8),rgba(7, 143, 203, .8)),url('img/about-bg.jpg') no-repeat scroll;
   background-size: cover;
   position: relative;
   color: white;
@@ -74,7 +73,7 @@ header .nav-link {
 /* Facility style end */
 /* Teachers,TeachersPage style start */
 #Teachers{
-  background: linear-gradient(rgba(71, 171, 35, .8),rgba(71, 171, 35, .8)),url(./assets/img/teacher-bg.jpg);
+  background: linear-gradient(rgba(71, 171, 35, .8),rgba(71, 171, 35, .8)),url(img/teacher-bg.jpg);
   background-size: cover;
   padding: 70px 0px;
   position: relative;

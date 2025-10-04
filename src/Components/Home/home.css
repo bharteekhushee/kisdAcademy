@@ -17,7 +17,7 @@
 
 #Homebanner::after {
   content: '';
-  background: url(../../assets/img/section_triangle_bottom.png) repeat-x;
+  background: url(img/section_triangle_bottom.png) repeat-x;
   position: absolute;
   bottom: -3px;
   left: 0;
